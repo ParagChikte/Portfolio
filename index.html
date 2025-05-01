@@ -2,69 +2,117 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Your Name | Cloud Engineer</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Parag Chikte | Cloud Engineer Portfolio</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 0; background: #f4f4f4; color: #333; }
-    header { background: #1f2937; color: white; padding: 2rem; text-align: center; }
-    section { padding: 2rem; max-width: 800px; margin: auto; background: white; margin-top: 1rem; border-radius: 10px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
-    h2 { border-bottom: 2px solid #eee; padding-bottom: 0.5rem; }
+    body { font-family: 'Segoe UI', sans-serif; margin: 0; background: #f5f7fa; color: #333; }
+    header { background-color: #1e293b; color: white; padding: 2rem; text-align: center; }
+    header h1 { margin: 0; font-size: 2.5rem; }
+    header p { margin: 0.5rem 0 0; font-size: 1.1rem; }
+    nav { text-align: center; margin: 1rem 0; }
+    nav a { margin: 0 1rem; color: #2563eb; text-decoration: none; font-weight: bold; }
+    section { max-width: 1000px; margin: 2rem auto; background: white; padding: 2rem; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.05); }
+    h2 { color: #1e293b; border-bottom: 2px solid #e2e8f0; padding-bottom: 0.5rem; }
     ul { padding-left: 1.2rem; }
-    a { color: #0366d6; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    .button { display: inline-block; margin-top: 1rem; background: #2563eb; color: white; padding: 0.5rem 1rem; border-radius: 5px; text-decoration: none; }
+    .skills-grid { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+    .skills-grid span { background: #e0f2fe; padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.9rem; }
+    .btn { background: #2563eb; color: white; padding: 0.6rem 1.2rem; border-radius: 5px; text-decoration: none; display: inline-block; margin-top: 1rem; }
   </style>
 </head>
 <body>
 
 <header>
-  <h1>Your Name</h1>
-  <p>Cloud & DevOps Engineer | AWS | Linux | CI/CD | Docker | Kubernetes</p>
-  <p>
-    <a href="https://www.linkedin.com/in/your-profile" target="_blank">LinkedIn</a> | 
-    <a href="https://github.com/your-username" target="_blank">GitHub</a>
-  </p>
+  <h1>Parag Chikte</h1>
+  <p>Dublin, Ireland | 📞 +353 894367074 | ✉️ paragc.er@gmail.com</p>
+  <p>Cloud & System Engineer | AWS | Linux | Monitoring | DevOps</p>
 </header>
 
-<section>
-  <h2>About Me</h2>
-  <p>I’m a Cloud & DevOps Engineer skilled in AWS, Linux, CI/CD, Docker, and system troubleshooting. I’ve recently completed a Post Graduate Diploma in Data Analytics and have hands-on experience deploying infrastructure on AWS using best practices for security and scalability.</p>
+<nav>
+  <a href="#about">About</a>
+  <a href="#experience">Experience</a>
+  <a href="#projects">Projects</a>
+  <a href="#skills">Skills</a>
+  <a href="resume.pdf" download>Resume</a>
+</nav>
+
+<section id="about">
+  <h2>Professional Summary</h2>
+  <p>Motivated, teamwork-oriented System Engineer with 3+ years of experience in Cloud Engineering. Skilled in AWS, Azure, Linux, System Administration, DevOps tools, and monitoring. Post Graduate Diploma in Data Analytics. Passionate about performance, optimization, and incident management.</p>
 </section>
 
-<section>
+<section id="experience">
+  <h2>Professional Experience</h2>
+  <h3>Technical Support Engineer - Cyber Dreams (Dec 2021 - Feb 2025, Pune, India)</h3>
+  <ul>
+    <li>Supported large-scale SaaS production environments at Tier 2/3 level.</li>
+    <li>Managed AWS infrastructure (EC2, IAM, S3, ELB, Lambda, CloudWatch, VPC).</li>
+    <li>Monitored environments using Datadog, CloudWatch, and performed deployments.</li>
+    <li>Implemented Linux scripting to automate Tomcat restarts, saving 2+ hours weekly.</li>
+    <li>Collaborated with DevOps teams for infrastructure support and RCA processes.</li>
+  </ul>
+  <h3>Android Developer Intern - Zaplontech (Apr 2020 – Oct 2020, Pune, India)</h3>
+  <ul>
+    <li>Assisted in deployment of mobile apps to Google Play Store.</li>
+    <li>Ensured quality, user privacy, and secure data exchange in development process.</li>
+  </ul>
+</section>
+
+<section id="projects">
   <h2>Projects</h2>
   <ul>
-    <li>
-      <strong>VPC with NAT Gateway (AWS)</strong><br>
-      Built a VPC with public/private subnets and NAT Gateway for secure internet access from private instances.  
-      <br><a href="https://docs.aws.amazon.com/vpc/latest/userguide/vpc-example-private-subnets-nat.html" target="_blank">Project Reference</a>
+    <li><strong>Diagnosing Blood Components using Deep Learning</strong><br>
+      Built models (VGG-19, InceptionV3, DenseNet121) in Python (TensorFlow/Keras) with 98% accuracy to detect anomalies in blood datasets.
     </li>
-    <li>
-      <strong>CI/CD Pipeline with Jenkins on EC2</strong><br>
-      Configured a pipeline to deploy Docker containers from GitHub to EC2 using Jenkins and Shell scripting.
+    <li><strong>Life Saver - Blood Donation App</strong><br>
+      Android app that connects donors and seekers via geolocation, enhancing emergency blood donation systems.
     </li>
-    <li>
-      <strong>Linux Automation Scripts</strong><br>
-      Wrote Bash/Python scripts for system automation and log monitoring.
+    <li><strong>AWS VPC with NAT Gateway</strong><br>
+      Implemented VPC with public/private subnets, NAT gateway, and secure access using AWS best practices. <a href="https://docs.aws.amazon.com/vpc/latest/userguide/vpc-example-private-subnets-nat.html">Reference</a>
     </li>
   </ul>
 </section>
 
-<section>
+<section id="skills">
   <h2>Skills</h2>
+  <div class="skills-grid">
+    <span>AWS</span><span>Azure</span><span>GCP</span><span>Linux</span><span>Windows Servers</span><span>Git</span>
+    <span>System Administration</span><span>Jira</span><span>ServiceNow</span><span>Datadog</span><span>Splunk</span><span>Nagios</span>
+    <span>Bash Programming</span><span>Shell Scripting</span><span>PowerShell</span><span>Networking</span><span>Web Servers</span>
+    <span>Nginx</span><span>Relational Databases</span><span>MSSQL</span><span>SQL</span><span>Terraform</span><span>Incident Management</span>
+    <span>ITIL</span><span>Analysis & Data Interpretation</span><span>Continuous Improvement</span><span>Team Player</span>
+    <span>Communication</span><span>Stakeholder Management</span><span>Planning & Execution</span><span>Problem Solver</span>
+    <span>24x7 Operations</span><span>Kubernetes</span><span>Jenkins</span><span>Python</span><span>Tableau</span><span>Udeploy</span>
+    <span>Bitbucket</span><span>Production Support</span><span>Dynatrace</span><span>SRE</span><span>Java</span><span>C</span>
+    <span>C++</span><span>VMWare</span><span>PowerBI</span><span>RESTful APIs</span><span>SOAP APIs</span><span>Agile</span>
+    <span>Ansible</span><span>SDLC</span><span>Containerization</span><span>Docker</span><span>Infrastructure as Code</span>
+  </div>
+</section>
+
+
+<section>
+  <h2>Certifications</h2>
   <ul>
-    <li>AWS (EC2, S3, VPC, IAM, CloudWatch)</li>
-    <li>Linux & Shell Scripting</li>
-    <li>Docker & Kubernetes</li>
-    <li>CI/CD (Jenkins, GitHub Actions)</li>
-    <li>Monitoring (Prometheus, Grafana)</li>
+    <li>Programming for Everybody (Python)</li>
+    <li>Amazon ECS</li>
+    <li>Linux Challenges – KodeKloud</li>
+    <li>Docker for Beginners</li>
   </ul>
 </section>
 
 <section>
-  <h2>Resume</h2>
-  <p>You can download my resume here:</p>
-  <a class="button" href="resume.pdf" download>Download Resume</a>
+  <h2>Soft Skills</h2>
+  <ul>
+    <li>Strong Troubleshooting & Root Cause Analysis</li>
+    <li>Team Collaboration & Agile Practices</li>
+    <li>Effective Communication</li>
+    <li>Critical Thinking</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Volunteering</h2>
+  <p><strong>Coordinator</strong> — Zeal College of Engineering (2017 - 2019)<br>
+  Organized technical workshops, hackathons, and coding competitions.</p>
 </section>
 
 </body>
